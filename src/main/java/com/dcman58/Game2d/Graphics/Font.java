@@ -4,7 +4,7 @@ import com.dcman58.Game2d.util.Debug;
 
 public class Font {
 
-	public static SpriteSheet font = new SpriteSheet("/fonts/arial.png", 16);
+	public static SpriteSheet font = new SpriteSheet("/fonts/arial.png", 208, 96, 16);
 	 private static Sprite[] characters = Sprite.split(font);
 
 	private static String charIndex = "ABCDEFGHIJKLM" + //

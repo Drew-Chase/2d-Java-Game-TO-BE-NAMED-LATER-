@@ -98,6 +98,15 @@ public class SpriteSheet {
 		load();
 	}
 
+	public SpriteSheet(String path, int imageWidth, int imageHeight, int spriteSize) {
+		this.path = path;
+		this.SIZE = spriteSize;
+		SPRITE_WIDTH = spriteSize;
+		SPRITE_HEIGHT = spriteSize;
+		pixels = new int[imageWidth * imageHeight];
+		load();
+	}
+
 	public Sprite[] getSprites() {
 		return sprites;
 	}
